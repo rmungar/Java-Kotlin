@@ -9,7 +9,7 @@ public class Ejercicio5 {
         Scanner sc = new Scanner(System.in);
 
         try{
-            System.out.print("Ingrese un numero: ");
+            System.out.print("Ingrese un número: ");
             int numero = Integer.parseInt(sc.nextLine());
             System.out.println("Tabla de multiplicar del " + numero);
             for (int i = 1; i <= 10; i++) {

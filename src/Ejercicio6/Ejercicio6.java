@@ -7,7 +7,7 @@ public class Ejercicio6 {
         for (int i = 1 ; i <= 100 ; i++){
               total += i;
         }
-        System.out.println(total);
+        System.out.println("El total de la suma es: " + total);
 
     }
 }

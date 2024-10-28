@@ -39,7 +39,7 @@ public class Ejercicio14 {
                     ArrayList<Videojuego> inventario2 = inventario;
                     for (Videojuego videojuego : inventario) {
                         if (videojuego._titulo.equals(nombre)) {
-
+                            inventario.remove(videojuego);
                         }
                     }
                     if (inventario2 == inventario) {System.out.println(nombre + " no ha sido elminado.");}
